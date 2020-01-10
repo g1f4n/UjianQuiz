@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat point anda adalah :"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtSkor"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnselesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selesai" />
+
+    <Button
+        android:id="@+id/btnulang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ulang" />
+</LinearLayout>
